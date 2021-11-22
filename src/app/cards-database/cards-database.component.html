@@ -3,16 +3,17 @@
         <h1>Cards Database</h1>
     </div>
 </div>
-<div class="container">
-    <div class="row">
+<div class="container mt-5">
+    <div class="row row-cols-3">
         <div class="col" *ngFor="let card of cards">
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="{{card.name}}">
-                <div class="card-body">
-                    <h5 class="card-title">{{card.name}}</h5>
-                    <p class="card-text">{{card.description}}.</p>
-                    <a routerLink="/card" class="btn btn-primary">More</a>
-                </div>
+                <a routerLink="card/{{card.id}}/">
+                    <img src="..." class="card-img-top" alt="{{card.name}}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{card.name}}</h5>
+                        <p class="card-text">{{card.description}}.</p>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

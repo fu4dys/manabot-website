@@ -26,15 +26,21 @@ export interface Cards {
     },
     {
         id: 4,
-        name: 'kecebong',
+        name: 'Kecebong',
         price: 299,
         description: '(kosong)'
     },
     {
-    id: 5,
-    name: 'kampret',
-    price: 299,
-    description: '(kosong)'
+        id: 5,
+        name: 'Kampret',
+        price: 299,
+        description: '(kosong)'
+    },
+    {
+        id: 6,
+        name: 'Kabau',
+        price: 299,
+        description: '(kosong)'
     }
 
   ];

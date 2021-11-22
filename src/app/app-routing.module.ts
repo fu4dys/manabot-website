@@ -5,7 +5,7 @@ import { CardsDatabaseComponent } from './cards-database/cards-database.componen
 
 const routes: Routes = [
   {path:'cards', component:CardsDatabaseComponent},
-  {path:'card', component:CardComponent}
+  {path:'card/:id', component:CardComponent}
 ];
 
 @NgModule({
