@@ -23,5 +23,18 @@ export interface Cards {
       name: 'Ciliang',
       price: 299,
       description: '(kosong)'
+    },
+    {
+        id: 4,
+        name: 'kecebong',
+        price: 299,
+        description: '(kosong)'
+    },
+    {
+    id: 5,
+    name: 'kampret',
+    price: 299,
+    description: '(kosong)'
     }
+
   ];
